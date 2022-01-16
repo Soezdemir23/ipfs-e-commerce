@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main_style.css">
+    <title>E-Commerce</title>
+</head>
+
+<body class="bac">
+    <!-- a wrapper for the whole site to make sure the site stays the same dimension-->
+    <div class="body-wrap">
+        <!-- Logo, searchbar and nav-->
+        <header>
+            <!--- Logo -->
+            <div>
+            <img src="logo.png">
+            <h1>Milky Road</h1>
+            </div>
+            
+            <!--- Searchbar -->
+            <div id="searchbar">
+                <form action="/search" method="post">
+                    <input type="text" name="" id="search">
+                    <input type="button" value="search" name="search" placeholder="Search" id="search-btn">
+                </form>
+            </div>
+            <!-- nav -->
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="About">About</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- section as teaser -->
+        <section class="teaser">
+            <h1>One of the first and best E-Commerce Websites on the next level internet.</h1>
+            <!--Wrap them into a box so they can be arranged left to right-->
+            <section>
+
+                <!-- One item -->
+                <section>
+                    <figure class="teaser-img">
+                        <img src="diet book (Telefon).jpeg" alt="A diet book">
+                        <figcaption>Diverse Dietbooks</figcaption>
+                    </figure>
+                </section>
+                <!-- Two item -->
+                <section>
+                    <figure class="teaser-img">
+                        <img src="protein (Telefon).jpeg" alt="Protein Powder">
+                        <figcaption>Various Protein powders</figcaption>
+                    </figure>
+                </section>
+                <!-- Three item -->
+                <section>
+                    <figure class="teaser-img">
+                        <img src="fish-oil (Telefon).jpeg" alt="Fish oil">
+                        <figcaption>Various Supplements</figcaption>
+                    </figure>
+                </section>
+
+            </section>
+
+            <a id="teaser-shop">shop now</a>
+
+        </section>
+
+        <!--Featured products, sliding pictures-->
+        <section class="features">
+            <h2>Featured Products</h2>
+            <!-- add siding pictures down below-->
+            <img src="background.jpeg" alt="beauty products">
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <!-- newsletter text-->
+            <span>
+                <h3>Newsletter</h3>
+                <p>Do not forget to subscribe to our newsletter about constant updates!</p>
+            </span>
+            <!-- e-mail address and subscribe -->
+            <span>
+                <form action="/submit" method="post">
+                    <input type="email" name="email" id="email" placeholder="Enter your e-mail address">
+                    <input type="submit" value="Subscribe" id="subscribe">
+                </form>
+            </span>
+        </section>
+
+        <!-- Outro/About -->
+        <section class="outro">
+            <h2>About our shop</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore mollitia quis tempore illo sunt illum
+                porro laudantium ratione, iure nam error adipisci quisquam accusamus pariatur corrupti consequuntur
+                ipsam rerum debitis?</p>
+        </section>
+
+        <!-- Footer a-->
+        <footer>
+            <!-- we can add here the Logo again and the address-->
+            <span>
+                <img src="logo.png">
+                <p>Address Address Address Address</p>
+            </span>
+            <!-- More -->
+            <nav>
+                <!--Main Menu-->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">featured</a></li>
+                </ul>
+            </nav>
+            <section></section>
+        </footer>
+    </div>
+</body>
+
+</html>

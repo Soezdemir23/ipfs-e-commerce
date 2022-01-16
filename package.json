@@ -1,0 +1,28 @@
+{
+  "name": "ipfs-e-commerce",
+  "version": "1.0.0",
+  "description": "E-Commerce based on ipfs as a back-end",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soezdemir23/ipfs-e-commerce.git"
+  },
+  "author": "soezdemir23",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Soezdemir23/ipfs-e-commerce/issues"
+  },
+  "homepage": "https://github.com/Soezdemir23/ipfs-e-commerce#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "ipfs": "^0.61.0",
+    "orbit-db": "^0.28.0"
+  },
+  "devDependencies": {
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.19.1"
+  }
+}
